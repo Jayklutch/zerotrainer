@@ -138,3 +138,20 @@ dx=gets.chomp
  puts "YourAwesomeComputer/Desktop/MagicUnicornFolder :>"
  puts ""
  puts "awesome,~pwd~ shows we are in the MagicUnicornFolder which is on your desktop and your machine is called YourAwesomeComputer"
+ puts ""
+ puts "if we never change the directory we are in 'folder' then 'pwd' will never change, type it again, just to be sure!"
+ dx=gets.chomp
+     until dx =="pwd"
+  puts "sorry, it doesn't look like you typed that quite right, everything needs to be spot on as a developer, otherwise your code can error out
+  and you can put a file in the wrong place, lets try again?"
+  dx=gets.chomp
+     end
+     system "clear"
+  puts "YourAwesomeComputer/Desktop/MagicUnicornFolder :>"
+  puts ""
+puts "yup, hasnt changed, because we haven't moved. That's what we expected."
+puts ""
+puts "We'll re visit this later, time to push forward a little bit."
+puts "press a key to continue"
+placeholder=gets.chomp
+system "clear"
