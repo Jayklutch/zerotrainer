@@ -1,3 +1,12 @@
+puts "Start by stretching you terminal widthwise (grab a corner and drag)"
+puts "Make it about half your screen width or a bit bigger, it's gonna make this so much easier to read"
+puts ""
+sleep 2.5
+puts "I'm going to clear the screen now! Once it's resized hit enter to continue"
+sleep 2.5
+puts "clearing screen now"
+sleep 3
+system "clear"
 puts "Welcome to the basic CLI trainer by Jay Davis"
 puts " "
 sleep 3.5
@@ -17,7 +26,7 @@ if no.include?(ax)
   puts "Why not? Let's trust me here and move on yea?"
 elsif yes.include?(ax)
 puts  "See easy, if you can do this much, you can learn to use the command line!"
-sleep 2
+sleep 3
 else
   puts "sorry 'y' and 'n' are kind of your only options at this point."
   sleep 1
@@ -29,7 +38,7 @@ puts "then you can't break anything on your computer, I promise"
 sleep 3
 puts ""
 puts "Also, this is like Vegas ok? Whatever happens in here, stays in here"
-sleep 1
+sleep 2.5
 puts ""
 puts "I am going to have you moving about, creating folders and files and"
 puts "deleteing files, dont worry, nothing is actually happening on your"
@@ -103,8 +112,7 @@ puts ""
 puts "press any letter to continue"
 placeholder=gets.chomp
 system "clear"
-puts "Well as much as you may think that clicking pretty buttons is the bee knees for moving, and I used to be one of those people, its
-actually really slow. In your life as a developer, sometimes you will need to include files that can't typically be seen by Finder or Explorer
+puts "Well as much as you may think that clicking pretty buttons is the bee knees for moving, and I used to be one of those people, its actually really slow. In your life as a developer, sometimes you will need to include files that can't typically be seen by Finder or Explorer
 so that's no fun. Also when it comes to building websites/rails apps etc then having an understanding of file and directory structure
 is going to be WAAAAAAAAAY easier then trying to guess your way around. "
 puts ""
