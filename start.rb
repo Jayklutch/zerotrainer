@@ -34,8 +34,8 @@ end
 system "clear"
 sleep 3
 puts "OK, house keeping, unless you are too clever to be using this tool anyway"
-puts "then you can't break anything on your computer, I promise"
-sleep 3
+puts "then you can't break anything on your computer, I promise!"
+sleep 3.5
 puts ""
 puts "Also, this is like Vegas ok? Whatever happens in here, stays in here"
 sleep 2.5
@@ -162,4 +162,20 @@ puts ""
 puts "We'll re visit this later, time to push forward a little bit."
 puts "press a key to continue"
 placeholder=gets.chomp
+system "clear"
+puts "why does this guy keep calling folders 'directories?'"
+puts "well it makes sense!"
+puts "~pwd~ - print working directory"
+puts "~mkdir~ - make directory! "
+puts ""
+puts "there you go, write it down! mkdir -> make new directory 'folder'"
+puts ""
+puts "you just need to follow this with the name you wish to give the directory eg. photos"
+puts ""
+puts "so lets type: mkdir photos"
+ex=gets.chomp
+until ex =="mkdir photos"
+  puts "whoops, you may want to check your spelling there, try again"
+  ex=gets.chomp
+end
 system "clear"
