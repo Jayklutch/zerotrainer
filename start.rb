@@ -179,3 +179,4 @@ until ex =="mkdir photos"
   ex=gets.chomp
 end
 system "clear"
+puts "next"
