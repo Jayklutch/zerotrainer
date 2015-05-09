@@ -200,3 +200,26 @@ until fx =="cd photos"
   puts "whoops, you may want to check your spelling there, try again"
   fx=gets.chomp
 end
+puts "YourAwesomeComputer/Desktop/MagicUnicornFolder/photos :>"
+sleep 3
+puts "There you go! You did it. You made a new directory, then moved into it, you're awesome."
+puts ""
+puts "press enter to move on"
+placeholder=gets.chomp
+system "clear"
+puts "YourAwesomeComputer/Desktop/MagicUnicornFolder/photos :>"
+puts ""
+sleep 2
+puts "right, so now you know how to:"
+puts ""
+sleep 2.5
+puts "pwd: print working direcotry"
+puts ""
+sleep 2.5
+puts "mkdir: make directory"
+puts ""
+sleep 2.5
+puts "cd: change direcotry"
+puts ""
+sleep 2.5
+puts "cd you will use everyday. EVERYDAY!!!!, mkdir you will use almost everyday and pwd you will use when you forget where you are or for troubleshooting"
