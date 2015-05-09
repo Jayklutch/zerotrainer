@@ -179,4 +179,24 @@ until ex =="mkdir photos"
   ex=gets.chomp
 end
 system "clear"
-puts "next"
+puts "Good stuff, now we have a directory called 'photos'"
+puts ""
+sleep 2
+puts "now we need to change into that directory. "
+sleep 2
+puts ""
+puts "change.......direcotry.... lets shorten that to ~cd~ "
+sleep 2
+puts ""
+puts "write it down. cd on the left.  change directory on the right "
+sleep 4
+puts ""
+puts "now lets type ~cd~ followed by the directory that we want to change into. cd photos"
+sleep 3
+puts ""
+puts "YourAwesomeComputer/Desktop/MagicUnicornFolder :>"
+fx=gets.chomp
+until fx =="cd photos"
+  puts "whoops, you may want to check your spelling there, try again"
+  fx=gets.chomp
+end
