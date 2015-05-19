@@ -224,3 +224,4 @@ puts ""
 sleep 2.5
 puts "cd you will use everyday. EVERYDAY!!!!, mkdir you will use almost everyday and pwd you will use when you forget where you are or for troubleshooting"
 #add some looping for cd mkdir and pwd, then introduce mv cp and rm. intro cd ..
+#todo tomorow
