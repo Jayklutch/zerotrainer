@@ -18,7 +18,7 @@ puts "I will give you a simple explanation, then I will ask you to do something,
 puts "it will be really easy. Just follow along and you'll be ok"
 puts " "
 sleep 5
-puts "Sound simple so far? (Y/N)"
+puts "Sound simple so far? (Y/N) [enter]"
 ax=gets.chomp
 no=["n",'N','no','NO']
 yes=['y','yes','Y','YES']
@@ -44,7 +44,7 @@ puts "I am going to have you moving about, creating folders and files and"
 puts "deleteing files, dont worry, nothing is actually happening on your"
 puts "hard drive whilst you are inside this program"
 sleep 8
-puts "All good so far? (y/n)"
+puts "All good so far? (y/n) [enter]"
 bx=gets.chomp
 if no.include?(bx)
   puts "Why not? Let's trust me here and move on yea?"
@@ -90,11 +90,11 @@ puts "cool huh?"
 sleep 2
 puts ""
 puts "RIGHT! let's get into it"
-puts "press 'y' to continue"
+puts "press 'y' then [enter] to continue"
 cx=gets.chomp
   if cx!='y'
 puts "Don't be difficult"
-sleep 2
+sleep 3
   end
 system "clear"
 puts "Go time. If have got this far then"
@@ -109,14 +109,14 @@ puts ""
 puts "It's this! Terminal, powershell, xterm, whatever you are using right here!"
 puts "why is it important to learn to use it?"
 puts ""
-puts "press any letter to continue"
+puts "press any letter and [enter] to continue"
 placeholder=gets.chomp
 system "clear"
 puts "Well as much as you may think that clicking pretty buttons is the bee knees for moving, and I used to be one of those people, its actually really slow. In your life as a developer, sometimes you will need to include files that can't typically be seen by Finder or Explorer
 so that's no fun. Also when it comes to building websites/rails apps etc then having an understanding of file and directory structure
 is going to be WAAAAAAAAAY easier then trying to guess your way around. "
 puts ""
-puts "press any letter to continue"
+puts "press any letter and [enter] to continue"
 placeholder=gets.chomp
 puts "I tried to fight it for about a week, as soon as I gave in, I realised how much quicker it is. Now I am also going to be really nice to you
 guys and give you some tips and tricks at the end of this program. (It's my way of bribing you to stay till the end!)"
